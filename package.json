@@ -1,0 +1,24 @@
+{
+  "name": "arnor_is-2020",
+  "version": "1.0.0",
+  "description": "My brilliant Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.5.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nuxt-responsive-loader": "^2.0.1",
+    "sass-loader": "^8.0.2"
+  }
+}
