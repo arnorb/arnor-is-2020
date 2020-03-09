@@ -8,10 +8,10 @@
 <script>
 export default {
   async asyncData({ params, payload }) {
-    if (payload) return { blogPost: payload };
+    if (payload) return { projPost: payload };
     else
       return {
-        blogPost: await require(`~/assets/content/verkefni/${params.project}.json`),
+        projPost: await require(`~/assets/content/verkefni/${params.project}.json`),
       };
   },
 };

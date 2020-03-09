@@ -19,6 +19,21 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+
+  generate: {
+    routes: function() {
+      const fs = require('fs');
+      const path = require('path');
+      return fs.readdirSync('./assets/content/verkefni').map(file => {
+        return {
+          route: `/verkefni/${path.parse(file).name}`, // Return the slug
+          payload: require(`./assets/content/verkefni/${file}`),
+        };
+      });
+    }
+
+  },
+
   /*
   ** Global CSS
   */
