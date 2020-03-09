@@ -1,19 +1,34 @@
 <template>
-    <article>
-        <h1>{{projPost.title}}</h1>
-        <div v-html="$md.render(projPost.body)" />
-    </article>
+  <div class="main project">
+    <b-container>
+        <b-row class="justify-content-center">
+            <b-col lg="8" class="mb-3">
+                <h1 class="project-heading">{{projPost.title}}</h1>
+            </b-col>
+        </b-row>
+        <b-row>
+            <b-col class="mb-3 mb-md-5">
+                <b-img :src="projPost.thumbnail" alt="" />
+            </b-col>
+        </b-row>
+        <b-row class="justify-content-center">
+            <b-col lg="8" class="mb-5">
+                <div v-html="$md.render(projPost.body)" />
+            </b-col>
+        </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
 export default {
-  async asyncData({ params, payload }) {
-    if (payload) return { projPost: payload };
-    else
-      return {
-        projPost: await require(`~/assets/content/verkefni/${params.project}.json`),
-      };
-  },
+    async asyncData({ params, payload }) {
+        if (payload) return { projPost: payload };
+        else
+            return {
+                projPost: await require(`~/assets/content/verkefni/${params.project}.json`),
+        };
+    },
 };
 </script>
 
