@@ -22,6 +22,15 @@
 
 <script>
 export default {
+    head() {
+        return {
+            title: this.projPost.title + " – Arnór Bogason vefhönnuður",
+            meta: [
+                { hid: 'description', name: 'description', content: this.projPost.description }
+            ]
+        }
+    },
+
     async asyncData({ params, payload }) {
         if (payload) return { projPost: payload };
         else
