@@ -19,5 +19,5 @@ collections:
       - { label: 'Short title', name: 'short-title', widget: 'string' }
       - { label: "Created Date", name: "date", widget: "datetime" }
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Site URL', name: 'site-url', widget: 'text' }      
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      
