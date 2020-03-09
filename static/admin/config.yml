@@ -11,7 +11,7 @@ collections:
     format: 'json'
     folder: 'assets/content/verkefni'
     create: true
-    slug: '{{slug}}'
+    slug: '{{short-title}}'
     editor:
       preview: false
     fields:
