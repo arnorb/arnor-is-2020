@@ -8,7 +8,7 @@ public_folder: /img
 collections:
   - name: 'project'
     label: 'Project'
-    format: 'json'
+    format: 'md'
     folder: 'assets/content/verkefni'
     create: true
     slug: '{{short-title}}'
@@ -17,7 +17,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Short title', name: 'short-title', widget: 'string' }
-      - {label: "Created Date", name: "date", widget: "datetime"}
+      - { label: "Created Date", name: "date", widget: "datetime" }
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       
