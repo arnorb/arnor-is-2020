@@ -1,8 +1,7 @@
 <template>
   <div>
       <div v-for="post in projPosts" :key="post">
-        <h1>post.title</h1>
-          
+        <h1>{{post.title}}</h1>
       </div>
   </div>
 </template>
