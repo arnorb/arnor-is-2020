@@ -6,8 +6,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'verkefni'
-    label: 'Verkefni'
+  - name: 'project'
+    label: 'Project'
     format: 'json'
     folder: 'assets/content/verkefni'
     create: true
@@ -16,4 +16,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Short title', name: 'short-title', widget: 'string' }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      
