@@ -41,7 +41,8 @@ export default {
   */
   modules: [
     'bootstrap-vue/nuxt',
-    'nuxt-responsive-loader'
+    'nuxt-responsive-loader',
+    '@nuxtjs/markdownit'
   ],
   bootstrapVue: {
     components: ['BContainer', 'BRow', 'BCol', 'BNav', 'BNavItem', 'BNavItemDropdown', 'BImg'],
@@ -51,6 +52,9 @@ export default {
   },
   responsiveLoader: {
     sizes: [750,860,1080,1400,2000]
+  },
+  markdownit: {
+    injected: true, 
   },
   /*
   ** Build configuration
