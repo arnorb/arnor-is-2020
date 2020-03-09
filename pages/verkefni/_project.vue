@@ -8,7 +8,7 @@
         </b-row>
         <b-row>
             <b-col class="mb-3 mb-md-5">
-                <b-img :src="projPost.thumbnail" alt="" />
+                <b-img fluid :src="projPost.thumbnail" alt="" />
             </b-col>
         </b-row>
         <b-row class="justify-content-center">
