@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <b-container>
         <b-row class="justify-content-center">
             <b-col lg="8" class="mb-5">
