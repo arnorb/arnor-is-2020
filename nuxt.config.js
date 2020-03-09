@@ -60,7 +60,7 @@ export default {
     '@nuxtjs/markdownit'
   ],
   bootstrapVue: {
-    components: ['BContainer', 'BRow', 'BCol', 'BNav', 'BNavItem', 'BNavItemDropdown', 'BImg'],
+    components: ['BContainer', 'BRow', 'BCol', 'BNav', 'BNavItem', 'BNavItemDropdown', 'BImg', 'BButton'],
     directives: [],
     css: false,
     bvCSS: false
