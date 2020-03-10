@@ -20,5 +20,5 @@ collections:
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: "Created Date", name: "date", widget: "datetime" }
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-      - { label: 'Site URL', name: 'site-url', widget: 'string' }      
+      - { label: 'Site URL', name: 'siteurl', widget: 'string' }      
       - { label: 'Body', name: 'body', widget: 'markdown' }
