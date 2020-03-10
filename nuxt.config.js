@@ -61,7 +61,8 @@ export default {
   ],
   bootstrapVue: {
     css: false,
-    bvCSS: false
+    bvCSS: false,
+    icons: true
   },
   responsiveLoader: {
     sizes: [750,860,1080,1400,2000]

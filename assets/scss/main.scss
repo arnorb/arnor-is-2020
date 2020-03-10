@@ -91,3 +91,15 @@ p a {
       }
 
 }
+
+.card {
+    border: 0;
+    border-bottom: 1px solid $gray-400;
+    border-radius: 0;
+    background: none;
+    
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
