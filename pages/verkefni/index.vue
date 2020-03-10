@@ -4,7 +4,7 @@
             <b-col>
                 <b-row>
                     <b-card-group>
-                        <b-card v-for="post in projPosts" :key="post.title" :title="post.title" :img-src="post.thumbnail" img-alt="" img-right>
+                        <b-card v-for="post in projPosts" :key="post.title" :title="post.title" :img-src="post.thumbnail" img-alt="" img-top class="mr-5">
                             <b-card-text>
                                 {{post.description}}
                             </b-card-text>
