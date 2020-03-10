@@ -3,9 +3,14 @@
         <b-container>
             <b-col>
                 <b-row>
-                    <div v-for="post in projPosts" :key="post">
-                    <h1><nuxt-link :to="post.slug">{{post.title}}</nuxt-link></h1>
-                    </div>
+                    <b-card-group>
+                        <b-card v-for="post in projPosts" :key="post.title" :title="post.title" :img-src="post.thumbnail" img-alt="" img-top>
+                            <b-card-text>
+                                {{post.description}}
+                            </b-card-text>
+                            <b-link class="card-link" :to="'/verkefni/'+post.slug">Um verkefnið</b-link>
+                        </b-card>
+                    </b-card-group>
                 </b-row>
             </b-col>
         </b-container>
@@ -22,6 +27,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
