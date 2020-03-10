@@ -59,10 +59,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: $gray-900;
+    color: #000;
+}
+
+p a {
     text-decoration: underline;
     &:hover {
         color: $black;
+    }
+    &.btn {
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
     }
 }
 
