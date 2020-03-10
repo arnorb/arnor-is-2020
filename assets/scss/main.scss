@@ -16,6 +16,13 @@ $h3-font-size: $font-size-base * 1.5;
 
 $headings-font-weight: 500;
 
+$navbar-nav-link-padding-x: 0.5rem;
+
+$navbar-padding-x: 0;
+// $navbar-padding-y: 2rem;
+$navbar-light-color: #000;
+
+
 // Then include the following
 // @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap/scss/bootstrap-grid.scss';
@@ -25,6 +32,8 @@ $headings-font-weight: 500;
 @import 'bootstrap/scss/_images.scss';
 @import 'bootstrap/scss/_buttons.scss';
 @import 'bootstrap/scss/_card.scss';
+@import 'bootstrap/scss/_nav.scss';
+@import 'bootstrap/scss/_navbar.scss';
 
 
 @import 'bootstrap-vue/src/index.scss';

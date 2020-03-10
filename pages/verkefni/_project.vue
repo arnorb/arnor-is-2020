@@ -6,7 +6,7 @@
                 <h1 class="project-heading pt-2">{{projPost.title}}</h1>
             </b-col>
             <b-col lg="3">
-                <b-button :href="projPost.site-url" squared block size="" variant="outline-dark" target="_blank" class="px-5 py-3">Skoða vef</b-button>
+                <b-button :href="projPost.siteurl" squared block size="" variant="outline-dark" target="_blank" class="px-5 py-3">Skoða vef</b-button>
             </b-col>
         </b-row>
         <b-row>
