@@ -1,13 +1,13 @@
 <template>
     <b-container class="mb-3">
-        <b-navbar>
+        <b-navbar class="align-items-start flex-column flex-md-row">
             <h4>
                 <b-navbar-brand to="/">
                     Arnór Bogason
                 </b-navbar-brand>
             </h4>
 
-            <b-navbar-nav class="ml-auto">
+            <b-navbar-nav class="ml-md-auto">
                 <b-nav-item to="/verkefni">verkefni</b-nav-item>
                 <b-nav-item to="/">um mig</b-nav-item>
                 <b-nav-item to="/">hafa samband</b-nav-item>
@@ -21,19 +21,5 @@
         font-weight: 700;
         font-size: 1.5rem;
     }
-    .nav-item {
-        &:last-of-type a {
-            padding-right: 0;
-        }
 
-        a {
-            font-weight: 500;
-            font-size: 1rem;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
 </style>

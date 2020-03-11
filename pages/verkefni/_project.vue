@@ -3,7 +3,7 @@
     <b-container>
         <b-row class="justify-content-center mb-3">
             <b-col lg="9">
-                <h1 class="project-heading pt-2">{{projPost.title}}</h1>
+                <h1 class="project-heading pt-2 mb-3 mb-lg-0">{{projPost.title}}</h1>
             </b-col>
             <b-col lg="3">
                 <b-button :href="projPost.siteurl" squared block size="" variant="outline-dark" target="_blank" class="px-5 py-3"><b-icon icon="arrow-right-short" scale="1.5"></b-icon> Skoða vef</b-button>
