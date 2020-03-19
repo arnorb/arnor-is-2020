@@ -54,6 +54,10 @@ export default {
 
 <style lang="scss" scoped>
 
+    p {
+        color: #000;
+    }
+
     a {
         &.fbmesslink {
             color: #234874;
