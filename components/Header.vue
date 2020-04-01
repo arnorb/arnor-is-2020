@@ -9,8 +9,8 @@
 
             <b-navbar-nav class="ml-md-auto">
                 <b-nav-item to="/verkefni">verkefni</b-nav-item>
-                <b-nav-item to="/">um mig</b-nav-item>
-                <b-nav-item to="/">hafa samband</b-nav-item>
+                <b-nav-item to="/um-mig">um mig</b-nav-item>
+                <b-nav-item to="/hafa-samband">hafa samband</b-nav-item>
             </b-navbar-nav>
         </b-navbar>
     </b-container>

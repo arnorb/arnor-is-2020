@@ -3,7 +3,7 @@
         <b-container>
             <b-row class="justify-content-center pt-5">
                 <b-col lg="4"> 
-                    <nuxt-link class="nav-link" to="/"><b-icon icon="arrow-right-short" scale="1.2"></b-icon> Um mig</nuxt-link>
+                    <nuxt-link class="nav-link" to="/um-mig"><b-icon icon="arrow-right-short" scale="1.2"></b-icon> Um mig</nuxt-link>
                 </b-col>
                 <b-col lg="4" class="text-center"> 
                     <nuxt-link class="nav-link" to="/verkefni"><b-icon icon="arrow-right-short" scale="1.2"></b-icon> Fleiri verkefni</nuxt-link>
