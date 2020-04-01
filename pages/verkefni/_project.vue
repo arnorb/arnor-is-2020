@@ -16,7 +16,7 @@
         </b-row>
         <b-row class="justify-content-center">
             <b-col lg="8" class="mb-3 mb-md-5">
-                <div v-html="$md.render(projPost.body)" />
+                <div class="main-content" v-html="$md.render(projPost.body)" />
             </b-col>
         </b-row>
         <b-row class="justify-content-center">
@@ -73,9 +73,17 @@ export default {
         }
     }
 
-    #footer {
-        margin-top: 0 !important;
+    .main.project {
+        margin-bottom: -3rem;
     }
 
 
+</style>
+
+<style lang="scss">
+
+        #footer .row {
+            padding-top: 3rem;
+        }
+        
 </style>

@@ -48,19 +48,19 @@ $navbar-light-color: #000;
 // @include media-breakpoint-up(lg) { ... }
 // @include media-breakpoint-up(xl) { ... }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: $dark;
-        color: $white;
-    }
-    a, .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
-        color: $gray-200;
-        &:hover, &:focus, &:active {
-            color: $gray-200;
-            text-decoration: underline;
-        }
-    }
-}
+// @media (prefers-color-scheme: dark) {
+//     body {
+//         background-color: $dark;
+//         color: $white;
+//     }
+//     a, .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+//         color: $gray-200;
+//         &:hover, &:focus, &:active {
+//             color: $gray-200;
+//             text-decoration: underline;
+//         }
+//     }
+// }
 
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.03em;
@@ -125,6 +125,16 @@ p a {
         opacity: 0;
       }
 
+}
+
+.main-content {
+
+    img {
+        max-width: 100%;
+
+        @extend .my-3;
+        @extend .my-md-5;
+    }
 }
 
 .card {
