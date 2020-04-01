@@ -4,7 +4,7 @@
         <b-col lg="8">
             <div :class="{ 'shadow-lg p-4 p-md-5 mb-n5 bg-white rounded-lg' : isCard}">
                 <p>Ert þú að leita að einföldum og þægilegum vef sem einfaldar alla upplýsingagjöf til viðskiptavina? Hafðu þá samband.</p>
-                <p>Þú getur <a href="https://www.facebook.com/messages/t/arnorb" class="fbmesslink">skotið að mér skilaboðum á Messenger</a> eða <a href="tel:+3546945400" class="tellink">heyrt í mér í síma 694 5400</a>.</p> 
+                <p>Þú getur <a href="https://www.facebook.com/messages/t/arnordesign" class="fbmesslink">skotið að mér skilaboðum á Messenger</a> eða <a href="tel:+3546945400" class="tellink">heyrt í mér í síma 694 5400</a>.</p> 
             </div>
         </b-col>
     </b-row>        
