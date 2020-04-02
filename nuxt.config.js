@@ -70,8 +70,12 @@ export default {
   modules: [
     'bootstrap-vue/nuxt',
     'nuxt-responsive-loader',
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'UA-267702-6'
+  }, 
   bootstrapVue: {
     css: false,
     bvCSS: false,
