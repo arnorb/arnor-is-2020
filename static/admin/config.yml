@@ -5,6 +5,9 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+plugins:
+  - type: "netlify-plugin-image-optim"
+
 collections:
   - name: 'project'
     label: 'Project'
