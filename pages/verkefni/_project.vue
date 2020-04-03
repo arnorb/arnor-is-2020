@@ -31,6 +31,9 @@ export default {
     components: {
         Contact
     },
+    // beforeCreate() {
+    //     process.client.body.className = this.projPost.shorttitle;
+    // },
 
     head() {
         return {
