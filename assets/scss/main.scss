@@ -51,7 +51,7 @@ $navbar-light-color: #000;
 @media (prefers-color-scheme: dark) {
     body {
         background-color: $dark;
-        color: $white;
+        color: $white; 
     }
     a, .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
         color: $gray-200;
