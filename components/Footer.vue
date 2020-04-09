@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid id="footer" class="footer text-white bg-dark p-5 mt-3 mt-lg-5">
+    <b-container fluid id="footer" class="footer text-white bg-dark p-5" :class="{ 'mt-3 mt-lg-5' : !isLanding }">
         <b-container>
             <b-row class="justify-content-center pt-5">
                 <b-col lg="4"> 
@@ -18,7 +18,9 @@
 
 <script>
 export default {
-
+    props: {
+        isLanding: Boolean 
+    }
 }
 </script>
 

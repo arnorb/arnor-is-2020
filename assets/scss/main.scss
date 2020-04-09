@@ -23,6 +23,23 @@ $navbar-padding-x: 0;
 // $navbar-padding-y: 2rem;
 $navbar-light-color: #000;
 
+$spacer: 1rem;
+$spacers: ();
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 6),
+    7: ($spacer * 8.5)
+  ),
+  $spacers
+);
+
 
 // Then include the following
 // @import 'bootstrap/scss/bootstrap.scss';
@@ -35,6 +52,7 @@ $navbar-light-color: #000;
 @import 'bootstrap/scss/_card.scss';
 @import 'bootstrap/scss/_nav.scss';
 @import 'bootstrap/scss/_navbar.scss';
+@import 'bootstrap/scss/_forms.scss';
 
 
 @import 'bootstrap-vue/src/index.scss';
