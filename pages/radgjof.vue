@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <b-container fluid class="landing-container">
-        <b-container class="align-items-end">
+        <b-container>
             <b-row>
                 <b-col lg="8" class="landing-cta mb-3 mb-md-5 mt-lg-7 mt-4">
                     <h1 class="font-weight-bold">Vilt þú fá frían tíma í ráðgjöf?</h1>
@@ -73,6 +73,7 @@ export default {
         }
 
         .landing-cta {
+
             p {
                 font-size: 1.5rem;
             }
