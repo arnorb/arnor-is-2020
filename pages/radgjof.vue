@@ -18,7 +18,7 @@
                 </b-col>
                 <b-col md="8">
                     <div>
-                        <p>Eflaust ertu að velta þessu og örugglega mörgu fleiru fyrir þér.  Ef þú skráir þig á póstlistann minn geturðu bókað tíma í fría ráðgjöf án skuldbindinga.</p>
+                        <p>Eflaust ertu að velta þessu og örugglega mörgu fleiru fyrir þér. Ef þú skráir þig á póstlistann minn geturðu bókað tíma í fría ráðgjöf án skuldbindinga.</p>
                     </div>
 
                     <!-- Begin Mailchimp Signup Form -->

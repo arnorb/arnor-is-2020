@@ -16,12 +16,12 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.5.0",
     "netlify-plugin-image-optim": "^0.2.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",
     "nuxt-responsive-loader": "^2.0.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.1.1"
   }
 }
